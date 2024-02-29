@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main>
       <Button>hello</Button>
+      <p>hello</p>
     </main>
   );
 }
