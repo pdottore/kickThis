@@ -18,14 +18,14 @@ export default async function Home() {
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold ">
-              Host, Connect, Celebrate: Your Events, Our Platform!
+              Host, Connect, Score: Your Events, Our Platform!
             </h1>
             <p className="p-regular-20 md:p-regular-24">
-              Book and learn helpful tips from 3,168+ mentors in world-class companies with our global community.
+              Book and play soccer with our global community.
             </p>
             <Button size="lg" asChild className="button w-full sm:w-fit">
               <Link href="#events">
-                Explore Now
+                Kick It
               </Link>
             </Button>
           </div>
@@ -35,7 +35,7 @@ export default async function Home() {
             alt="hero"
             width={1000}
             height={1000}
-            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
+            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh] rounded-3xl"
           />
         </div>
       </section>
